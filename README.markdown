@@ -63,3 +63,16 @@ Number of columns<br />
 **container** (string)<br />
 Default: `<ul></ul>`<br />
 What type of element each column is.
+
+# Advanced Usage
+<pre>
+&lt;script>
+    $(function(){
+        $('.columnize-me').columnize({
+            'container': '&lt;ul>',
+            'columns': 4,
+            'wrap': '&lt;div class="sub-menus">'
+        });
+    });
+&lt;/script>
+</pre>
