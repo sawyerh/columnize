@@ -48,20 +48,14 @@ Columnize.js takes a parent element and dynamically splits it into "columns" (re
 
 # Options
 
-**wrapper** (string)
-
-Default: `<div class="cols-container"></div>`
-
+**wrapper** (string)  return
+Default: `<div class="cols-container"></div>`  return
 The element that wraps around your columns
 
-**columns** (int)
+**columns** (int)  return
+Default: `2`  return
+Number of columns  return
 
-Default: `2`
-
-Number of columns
-
-**container** (string)
-
-Default: `<ul></ul>`
-
+**container** (string)  return
+Default: `<ul></ul>`  return
 What type of element each column is.
