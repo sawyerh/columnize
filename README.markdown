@@ -2,6 +2,9 @@
 
 Columnize.js takes a parent element and dynamically splits it into "columns" (requires some CSS knowledge). For example, if you want to dynamically split a list into multiple columns while still preserving the vertical order, you could follow the example below. 
 
+# Why not just use CSS?
+If you don't care about the vertical ordering of your list items, and are okay with them being ordered horizontally first and then moving to the next row, definitely use CSS instead of this plugin. However, if you want your columns to be ordered vertically (ex. First column = A, B, C | Second column = D, E, F), then this is the best approach I've found. Of course you could use CSS3's multi-column feature, however I've found that it's still not as reliable, especially when you want to have a bottom border on each list item.
+
 ## Your HTML
 
 <pre>
