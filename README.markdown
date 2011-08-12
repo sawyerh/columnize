@@ -4,7 +4,6 @@ Columnize.js takes a parent element and dynamically splits it into "columns" (re
 
 ## Your HTML
 
-<code>
 <pre>
 &lt;ul>
     &lt;li>List item&lt;/li>
@@ -13,10 +12,9 @@ Columnize.js takes a parent element and dynamically splits it into "columns" (re
     &lt;li>List item&lt;/li>
 &lt;/ul>
 </pre>
-</code>
 
 ## HTML After Columized (using default settings)
-<code>
+
 <pre>
 &lt;div class="col-container">
     &lt;ul class="col col-1">
@@ -30,4 +28,3 @@ Columnize.js takes a parent element and dynamically splits it into "columns" (re
     &lt;/ul>
 &lt;/div>
 </pre>
-</code>
