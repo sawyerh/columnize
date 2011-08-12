@@ -76,3 +76,6 @@ What type of element each column is.
     });
 &lt;/script>
 </pre>
+
+# Credits
+Big thanks to [stevelosh](https://github.com/sjl/stevelosh) who basically did all the hard work on this
