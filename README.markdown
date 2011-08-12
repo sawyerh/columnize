@@ -28,3 +28,34 @@ Columnize.js takes a parent element and dynamically splits it into "columns" (re
     &lt;/ul>
 &lt;/div>
 </pre>
+
+## Example CSS
+<pre>
+.col-container ul{
+    width: 50%; /* Obviously this would change depending on how many columns you have */
+    float: left;
+}
+</pre>
+
+# Basic Initialization
+<pre>
+&lt;script>
+    $(function(){
+        $('.columnize-me').columnize();
+    });
+&lt;/script>
+</pre>
+
+# Options
+
+**wrapper** (string)
+Default: `&lt;div class="cols-container">&lt;/div>`
+The element that wraps around your columns
+
+**columns** (int)
+Default: `2`
+Number of columns
+
+**container**
+Default: `&lt;ul>&lt;/ul>`
+What type of element each column is.
