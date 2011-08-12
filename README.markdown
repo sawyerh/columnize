@@ -78,4 +78,4 @@ What type of element each column is.
 </pre>
 
 # Credits
-Big thanks to [stevelosh](https://github.com/sjl/stevelosh) who basically did all the hard work on this
+Big thanks to [stevelosh](https://github.com/sjl/) who helped me out a lot on this
