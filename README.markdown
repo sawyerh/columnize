@@ -6,12 +6,12 @@ Columnize.js takes a parent element and dynamically splits it into "columns" (re
 
 <code>
     <pre>
-        <ul>
-            <li>List item</li>
-            <li>List item</li>
-            <li>List item</li>
-            <li>List item</li>
-        </ul>
+        &lt;ul>
+            &lt;li>List item&lt;/li>
+            &lt;li>List item&lt;/li>
+            &lt;li>List item&lt;/li>
+            &lt;li>List item&lt;/li>
+        &lt;/ul>
     </pre>
 </code>
 
