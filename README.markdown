@@ -69,9 +69,9 @@ What type of element each column is.
 &lt;script>
     $(function(){
         $('.columnize-me').columnize({
-            'container': '&lt;ul>',
+            'container': '&lt;ol>',
             'columns': 4,
-            'wrap': '&lt;div class="sub-menus">'
+            'wrap': '&lt;div class="numbered-menus">'
         });
     });
 &lt;/script>
